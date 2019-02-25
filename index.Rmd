@@ -1,8 +1,8 @@
 --- 
-title       : Gerenciamento de Referências Bibliográficas
+title       : Uso de templates para editoração e submissão de teses e dissertações
 subtitle    : Use seu tempo de forma eficiente!
-author      : Antonio Augusto Franco Garcia (http://about.me/augusto.garcia)
-job         : Departamento de Genética, ESALQ/USP
+author      : Antonio Augusto Franco Garcia (http://augustogarcia.me)
+job         : Departamento de Genética, ESALQ/USP (26/02/2019)
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light    # era tomorrow
@@ -19,21 +19,24 @@ mode        : selfcontained # {standalone, draft}
 
 ---
 
-## Gerenciamento de Referências
+## Produção de Conteúdo
 
-- Objetivo: eficiência e produtividade
-- Usar os modernos recursos computacionais
+- Exemplos: planos de tese, projetos, relatórios, resumos, rascunhos,
+  artigos, tese
 - Foco no conteúdo, não nos formatos e regras
+- Objetivo: eficiência e produtividade
+- Uso de modernos recursos computacionais
 
 --- bg:#fee6ce
 
 # Sumário
 
-## Proposta
+## Templates
 
-- Ideias gerais e conceitos importantes sobre o que são bases de dados
-- Atividade prática
+- Ideias gerais e conceitos importantes sobre o que são templates
+- Demonstrações
 - Discussões
+- Sugestões para aumento de eficiência
 
 ---
 
