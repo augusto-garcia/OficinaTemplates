@@ -33,10 +33,25 @@ mode        : selfcontained # {standalone, draft}
 
 ## Templates
 
-- Ideias gerais e conceitos importantes sobre o que são templates
-- Demonstrações
+- Ideias gerais e conceitos importantes sobre o que são
+  **_templates_** (modelos)
+- "Demonstrações"
 - Discussões
-- Sugestões para aumento de eficiência
+
+---
+
+## Quem sou eu?
+
+- Professor Associado
+- Editor
+  - Scientia Agricola (2012-2015)
+  - BMC Genetics (2015-2017)
+  - Theoretical and Applied Genetics (2013-)
+- Diretor - Centro de Tecnologia da Informação Luiz de Queiroz
+  (CeTI-LQ; antigo CIAGRI)
+- Responsável pelo [Laboratório de Genética Estatística](http://statgen.esalq.usp.br)
+      - Usamos templates
+
 
 ---
 
@@ -59,10 +74,13 @@ Cada vez é mais comum armazenarmos informação digital
 
 - Pastas suspensas com *separatas*
 - Arquivos de diferentes tipos
+  - Anotações em cadernos/arquivos
+  - Marcação colorida nos artigos/anotações nos pdfs
+- Seria ótimo se tais anotações pudessem ser convertidas em outros formatos
 
 ---
 
-## Padrão atual
+## Padrões
 
 - Arquivos (em formato *pdf* para artigos)
 - ebooks
@@ -79,7 +97,7 @@ Cada vez é mais comum armazenarmos informação digital
 
 - "Marca-texto"
 - Anotações
-  - Exemplo: [Fermat](http://youtu.be/E7Bqx65liIE)
+  - Exemplo: [Fermat](https://youtu.be/qiNcEguuFSA)
 - Notas de rodapé
 - Cadernos
 - "Guardanapos"
@@ -91,7 +109,10 @@ Cada vez é mais comum armazenarmos informação digital
 
 - Onde guardei?
 - Como lembrar?
-- Estamos em 2014!
+- Como pesquisar?
+- Pastas (diretórios): conceito ultrapassado
+  - Uso de **_labels_** (rótulos ou etiquetas)
+- Estamos em 2019!
 
 ---
 
@@ -102,8 +123,11 @@ Cada vez é mais comum armazenarmos informação digital
 - Códigos para analisar os dados
   - [FOAS](http://www.foastat.org/)
   - [ggvis](http://ggvis.rstudio.com/)
-  - [QTL](http://kbroman.org/qtlcharts/)
-  - html5
+- Slides usando **_html5_**
+  - [Análises interativas](http://statgen.esalq.usp.br/quantgen/decomp-gen-value/#14)
+  - [Tabelas interativas](http://statgen.esalq.usp.br/quantgen/multilocus/#3)
+  - [Vídeos nos slides](http://statgen.esalq.usp.br/quantgen/about/#6)
+- Powerpoint?
 
 ---
 
@@ -112,12 +136,12 @@ Cada vez é mais comum armazenarmos informação digital
 - Você arruma sua casa antes de receber visitas?
 - Você gostaria que alguém repetisse as análises que você fez na sua
 tese?
-- E nos artigos já publicados?
-  - (Fiz isso no meu pós-doc)
+- E sobre seus artigos já publicados?
+
 
 ---
 
-## Docentes/Responsabilidade
+## Responsabilidade Institucional
 
 - Referências Bibliográficas: um *ótimo* primeiro passo
 - Lembre-se, temos o dever ético de citar corretamente o trabalho de
@@ -127,21 +151,8 @@ outros autores
     nosso tempo corrigindo se todos os artigos estão citados no texto,
     e vice-versa! (É fácil pensar em vários outros exemplos)
   - Uso eficiente do tempo é bom para todos
-- Novas normas para Teses e Dissertações
+- **_Templates para Teses e Dissertações da ESALQ_**
 
----
-
-## Tenho algo a dizer?
-
-- Docente
-- Editor de periódicos
-- Genética Estatística
-  - Softwares
-  - Colaborações
-  - Dados de diferente natureza
-- Alunos
-- $\LaTeX$
-- Páginas pessoais: [about.me](http://about.me/augusto.garcia), [página pessoal](http://augusto-garcia.github.io/), [Lab](http://statgen.esalq.usp.br)
 
 ---
 
@@ -149,6 +160,7 @@ outros autores
 
 - Os arquivos estão seguros?
 - Vou conseguir abri-los daqui 10 anos?
+  - Ebooks vs livro físico
 - Consigo *ter acesso as informações* de forma eficiente?
 - Metadados?
 - Vários critérios de buscas?
@@ -158,7 +170,7 @@ outros autores
 
 ## Programas
 
-- Uôrdi, Equicél, Pouerpóinti
+- Word, Excel, Powerpoint
 - SAS
 - $\ldots$
 - Licenças institucionais (USP)
@@ -166,12 +178,45 @@ outros autores
 
 ---
 
-## Não seja ingênuo!
 
-- iOS vs Android
-- Windows Phone (Microsoft)
-- Tizen (Samsung)
-- Kindle (Amazon)
+## Templates da ESALQ
+
+- Multiplataforma (Windows, Mac, Linux)
+- Word, LibreOffice, LaTeX, (Google Docs)
+- Gerenciadores de Referências
+- Tutoriais
+- Fácil utilização
+- Disponíveis do site da Biblioteca neste [link](http://www.esalq.usp.br/biblioteca/apoio-a-producao-academica)
+
+---
+
+## $\LaTeX$
+
+- Sistema para produção de documentos de alta qualidade,
+  principalmente com fórmulas
+- Muito usado nas Ciências Exatas
+
+
+---
+
+## Tutorial
+
+![Manual](figuras/Fig1.jpg)
+
+
+---
+
+## Informações
+
+- LER O TUTORIAL
+- Parte Pré-textual
+  - Editar o arquivo **_TodasInformações.tex_** e fazer as alterações
+  - Não editar **_Ficha.tex_**
+  - Etc
+- Parte textual: o conteúdo em si
+- Veja no diretório **_referencias_** o arquivo **_bibliografia.bib_**
+- COMPILE e veja **_Tese.pdf_**
+
 
 ---
 
@@ -181,35 +226,19 @@ outros autores
   - [The Power of Plain Text](http://c2.com/cgi/wiki?PowerOfPlainText)
 - Arquivos texto vs binários
 - Excel vs .csv
-- Linux
-- git
-
----
-
-## Retrógrado? Desatualizado?
-
-- É óbvio que precisamos de *interfaces* para interagir com os
-arquivos
-- Base de dados é diferente de trabalhar com os arquivos
-- (Sim, o Excel abre e grava arquivos em .csv)
-- pdf é formato binário, mas é possível facilmente convertê-lo em
-texto
-- O CV Lattes não permite isso, já que não podemos baixar a base de
-  dados, apenas binários
 
 ---
 
 ## Referências Bibliográficas
 
-- Grande parte do seu tempo (tomara!) será dispendido lendo/escrevendo
+- Grande parte do seu tempo será dispendido lendo/escrevendo
 publicações
 - Será preciso constantemente retornar as anotações e fazer diferentes
 buscas
 - Logo, qualquer investimento de tempo tem elevado retorno na
 produtividade
-- O novo formato de Teses e Dissertações prevê o uso de algum
-  gerenciador de referências (mas não obriga tal uso)
-- (Dica: aprenda também a usar um Editor de Textos decente)
+- O template de Teses e Dissertações prevê o uso de algum
+  gerenciador de referências (mas não é restrito a única plataforma)
 
 
 ---
@@ -218,7 +247,7 @@ produtividade
 
 - [BibTex](http://www.bibtex.org/)
 - Formato texto, portátil, versátil, *lingua franca*
-- Associado ao $\LaTeX$, mas não necessariamente
+- Associado ao $\LaTeX$, mas pode ser usado como base de dados
 
 ---
 
@@ -233,18 +262,6 @@ produtividade
 
 ---
 
-
-## Demonstração
-
-- Emacs + R + $BibTex$
-- Código fonte destes slides (remover os comentários do código)
-
-```{r md-cars-scatter,  eval=FALSE, echo=FALSE, message=FALSE, fig.width=7, fig.height=5}
-library(ggplot2)
-qplot(hp, mpg, data=mtcars)+geom_smooth() 
-```
-
----
 
 ## Exemplos
 
@@ -263,9 +280,9 @@ que não seja dependente de programas específicos. </q>
 
 ## Gerenciadores de Referências
 
-  1. [Mendeley](http://www.mendeley.com/)
+  1. [Mendeley](http://www.mendeley.com/) - minha escolha, combinado ao $\LaTeX$
   2. [Zotero](https://www.zotero.org/)
-  3. [EndNote](http://endnote.com/) (Permite exportar? CSL?)
+  3. [EndNote](http://endnote.com/)
   4. [Papers](http://www.papersapp.com/)
   5. [JabRef](http://jabref.sourceforge.net/)
   6. [citeulike](http://www.citeulike.org/)
@@ -275,132 +292,126 @@ que não seja dependente de programas específicos. </q>
 
 ## Pontos importantes
 
-  1. Posso importar/exportar para o $BibTex$?
+  1. Posso importar/exportar para o $BibTex$ ou algum outro formato genérico?
   2. Posso usar o programa para incluir as citações nos meus
   trabalhos?
   3. Quais são os formatos para citação disponíveis?
-  4. Posso expandir estes formatos?
+  4. Posso expandir/alterar estes formatos?
 
----
-
-## Citação vs Base de Dados
-
-- Cuidado para não confundir os conceitos
-- Geralmente, os programas não deixam clara esta distinção
 
 ---
 
 ## Formatos para citação adotados pelas principais revistas
 
 - [Citation Styles, CSL, http://citationstyles.org](http://citationstyles.org/)
-  - Mais de 6700 estilos de citação abertos e gratuitos (hoje, 7000)
+  - Mais de 9000 estilos de citação abertos e gratuitos
   - As principais revistas participam e contribuem
   - Tais formatos podem ser importados em vários programas
   gerenciadores de referências
 
 ---
 
-## Mendeley
+## Word
 
-- [Mendeley](http://www.mendeley.com/)
-- Uma ótima opção
-- Gratuito, com versão paga (espaço para arquivos; coleções compartilhadas)
-- Permite exportar para $BibTex$ (caso contrário, eu não
-recomendaria)
-- Rede Social, compartilhamento
-- Plugins para Word e [LibreOffice](https://pt-br.libreoffice.org/)
-- Permite fazer anotações e marcações de texto nos pdfs
-- Sincronização entre computadores
-- App para tablets e celulares
-- Fácil inclusão de citações em emails e outros documentos
-- Importação de Metadados de pdfs com DOI
-- Possibilidade de inclusão manual dos metadados
 
----
-
-## Mendeley
-
-- Rápida demonstração, usando minha coleção
-
----
-
-## Tarefas
-
-1. Assista os vídeos disponíveis no site (clique [aqui](http://www.mendeley.com/features/))
-2. Abra uma conta
-3. Baixe e instale o programa
-4. Adicione algum dos seus colegas na sua rede de relacionamentos
-5. Adicione a sua coleção os pdfs disponíveis
-   [aqui](https://github.com/augusto-garcia/Gerenciamento-Referencias/tree/gh-pages/pdfs);
-   corrija os metados se necessário
-6. Crie os metadados para um livro para o qual você não possui o pdf,
-mas vai citá-lo na tese
-7. Abra algum dos artigos e faça anotações e marcações no texto
-8. Crie uma coleção particular e inclua estas 3 referências
-9. Crie uma coleção compartilhada e inclua as referências
-
----
-
-## Tarefas
-
-10. **IMPORTANTE**: Crie tags para os artigos
-   - Você percebe a importância disso? Um artigo pode ser classificado
-   em diferentes assuntos. A ideia de "pastas" é obsoleta!
-   
-11. No menu "Tools -> Options" do Mendeley, explore as possibilidades
-de organizar todos os seus pdfs em algum diretório
-   - *IMPORTANTE*: note que isso permitirá que você pode abandonar o
-Mendeley a qualquer momento, continuando com a posse dos seus pdfs
-organizados
-
-12. Exporte sua coleção para o formato $BibTex$
-    - Está mais confiante que sua coleção está segura agora?
-    - (Nem tudo é perfeito; onde estão as "marcações" nos pdfs? Note
-      que este é um problema típico dos arquivos binários)
-
----
-
-## Tarefas
-
-13. Explore a opção "View" para entender a diferença entre "Library as
-Table" and "Library as Citations"
-14. Escreva um email incluindo a citação dos dois artigos no corpo da
-mensagem
-15. Importe agora um formato de citação que não está incluído
-    originalmente no Mendeley, mas faz parte do
-    [Citation Styles](http://citationstyles.org/)
-    - "View -> Citation Styles -> More Styles"
-
----
-
-## Agora, a melhor parte!
-
-16. Instale o plugin para fazer comunicação entre o Word e o Mendeley
-    - "Tools -> Install Word Plugin"
-
-17. Abra o Word, escreva algum texto e insira a citação dos artigos
-
-18. Solicite que o Word crie a lista de referências no formato
-desejado
-
-19. Modifique o formato para outra revista
-
-20. Diga "Uáu!!!!!" só para deixar o professor contente ;o)
+![Manual](figuras/Fig2.jpg)
 
 
 ---
 
-# CONCLUSÕES
+## Instale o template (arquivo com extensão .dotx)
 
-- Esta nova abordagem implica necessariamente na mudança das *Normas
-Para Elaboração de Dissertações e Teses*
-- O formato atual de citações não está (nem nunca será incluído!) no
-[Citation Styles](http://citationstyles.org/)
-    - A razão é simples: depende de intervenção humana para saber como
-    incluir a citação
-- Mesmo usando a ABNT (sem adaptações), teremos problemas: não
-  considera os diferentes aspectos da vida acadêmica, que é o que de
-  fato importa
+![Manual](figuras/Fig3.jpg)
+
+
+---
+
+## Use a aba Desenvolvedor
+
+![Manual](figuras/Fig4.jpg)
+
+
+---
+
+## Novos estilos estão agora disponíveis
+
+![Manual](figuras/Fig5.jpg)
+
+
+---
+
+## Altere algumas configurações
+
+- Tamanho da página
+- Numeração
+- Use os estilos do template
+
+![Manual](figuras/Fig6.jpg)
+
+
+---
+
+![Manual](figuras/Fig7.jpg)
+
+
+---
+
+![Manual](figuras/Fig8.jpg)
+
+---
+
+![Manual](figuras/Fig9.jpg)
+
+---
+
+![Manual](figuras/Fig10.jpg)
+
+
+---
+
+## Sumário: feito automaticamente
+
+![Manual](figuras/Fig11.jpg)
+
+
+---
+
+## Template com Gerenciador de Referências
+
+- Fantástico!
+
+![Manual](figuras/Fig12.jpg)
+
+
+---
+
+## Colaborador: Carlos Macedônio (LGN)
+
+<iframe width="854" height="510" src="https://www.youtube.com/embed/fUO9bxkBWyU" frameborder="0" allowfullscreen></iframe>
+
+---
+
+<iframe width="854" height="510" src="https://www.youtube.com/embed/pdN-0KEPVHo" frameborder="0" allowfullscreen></iframe>
+
+
+---
+
+## Colaborador: Fernando Mayer (LCE)
+
+- Template com **_knitr_**, em capítulos ou não 
+  - [Link](https://github.com/fernandomayer/ESALQ-Tese-Template)
+- **_Overleaf_** ($\LaTeX$ online) para tese em capítulos
+  - [Link](https://www.overleaf.com/latex/templates/esalq-tese-em-capitulos/rnpjnsggtyfr)
+  
+
+---
+
+## Etapas Futuras
+
+- Template em [Markdown](https://pt.wikipedia.org/wiki/Markdown) e
+  [RMarkdown](https://bookdown.org/)
+- [Pandoc](https://pandoc.org/)
+
 
 --- bg:#fee6ce
 
